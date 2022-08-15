@@ -1,0 +1,25 @@
+"" Appearance 
+" setting dark mode for current scheme
+syntax enable
+colorscheme night-owl
+
+" To enable the lightline theme
+let g:airline_theme = 'deus'
+
+" gruvbox theme
+" colorscheme gruvbox
+
+
+"" Functional Changes
+" fzf shortcut Cntl + f
+noremap <C-p> :Files<CR>
+
+" no swap file creation
+set noswapfile
+
+" remove text wrapping
+set nowrap
+
+" custom line spacing
+set linespace=3
+
