@@ -1,11 +1,6 @@
 ## dotfiles
 Configs and setup files for getting start on a new unix-like machine.
 
-## vim
-- vim configs for themes and functionality
-- custom vim settings
-
-
 ## steps
 ```
 # clone the repo
