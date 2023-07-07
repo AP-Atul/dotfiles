@@ -139,3 +139,7 @@ export PATH="$HOME/.fuelup/bin:$PATH"
 # pointing neovim to vim
 alias vim=~/Applications/nvim/bin/nvim
 
+# starts bash in tmux mode
+if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+    tmux attach -t default || tmux new -s default
+fi
